@@ -1,0 +1,12 @@
+{
+  "name": "vega-it",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "If somebody wants to continue with project, just run commands for compilation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
