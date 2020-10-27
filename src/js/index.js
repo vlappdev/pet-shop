@@ -7,15 +7,12 @@ function $(selector) {
 
 //====== Show/hide mobile menu ======//
 
-$('.js_menu').addEventListener('click', function () {
-  const element = $('.js_nav_mob');
-  element.classList.add('show');
-});
+function toggleEl(el, className){
+  $(el).classList.toggle(className)
+}
 
-$('.js_close').addEventListener('click', function () {
-  const element = $('.js_nav_mob');
-  element.classList.remove('show');
-});
+$('.js_menu').addEventListener('click', () => toggleEl('.js_nav_mob', 'show'));
+$('.js_close').addEventListener('click', () => toggleEl('.js_nav_mob', 'show'));
 
 //====== Slider ======//
 
